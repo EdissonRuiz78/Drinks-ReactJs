@@ -35,7 +35,7 @@ const Form = () => {
   return (
     <form className="col-12" onSubmit={handleOnSubmit}>
       <div className="row mt-2">
-        <div className="col-md-4">
+        <div className="col-md-4 mt-2">
           <input
             className="form-control"
             type="text"
@@ -44,7 +44,7 @@ const Form = () => {
             onChange={handleOnChange}
           />
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 mt-2">
           <select
             className="form-control"
             name="category"
@@ -59,7 +59,7 @@ const Form = () => {
           </select>
         </div>
         <div className="col-md-4">
-          <button className="btn btn-block btn-danger" type="submit">
+          <button className="btn btn-block btn-danger mt-2" type="submit">
             Search Drink
           </button>
         </div>

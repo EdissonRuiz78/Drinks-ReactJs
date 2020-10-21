@@ -22,6 +22,8 @@ const ProviderModal = (props) => {
   return (
     <ContextModal.Provider
       value={{
+        recipe,
+        updateRecipe,
         updateIdRecipe,
       }}
     >
